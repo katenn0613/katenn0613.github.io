@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xia Zhan's Learning Website | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Information Systems Engineering - Week 14</p>
+    <h1>Xia Zhan's Learning Website</h1>
+  </header>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="index.html" class="active">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="trivia.html">Trivia</a>
+  </nav>
+
+  <div class="page-layout">
+    <aside class="left-sidebar" aria-labelledby="useful-links">
+      <h2 id="useful-links">Useful Links</h2>
+      <ul class="link-list">
+        <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.ritsumei.ac.jp/" target="_blank" rel="noopener noreferrer">Ritsumeikan University</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <section class="intro-section">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Hello, I am a student at Ritsumeikan University. I am interested in
+            web development, artificial intelligence, information systems, and
+            how technology can support better decision-making.
+          </p>
+          <p>
+            My goal is to improve my programming skills and become more confident
+            in creating useful digital tools with HTML, CSS, JavaScript, and data.
+          </p>
+        </div>
+        <img class="profile-image" src="images/study-workspace.png" alt="Illustration of a laptop, books, and study notes">
+      </section>
+
+      <section>
+        <h2>Interests and Goals</h2>
+        <div class="interest-grid">
+          <article>
+            <h3>Technology</h3>
+            <p>I enjoy learning how websites, simulations, and information systems are designed.</p>
+          </article>
+          <article>
+            <h3>Study Goal</h3>
+            <p>I want to connect classroom knowledge with practical web projects and real users.</p>
+          </article>
+          <article>
+            <h3>Hobbies</h3>
+            <p>In my free time, I like photography, traveling, music, and exploring new tools.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <aside class="right-sidebar" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>Created in July 2026</p>
+    <p><a href="https://github.com/katenn0613/XIAZHANweek14.github.io" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xia Zhan's Learning Website | Trivia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Information Systems Engineering - Week 14</p>
+    <h1>Xia Zhan's Learning Website</h1>
+  </header>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="trivia.html" class="active">Trivia</a>
+  </nav>
+
+  <div class="page-layout">
+    <aside class="left-sidebar" aria-labelledby="useful-links">
+      <h2 id="useful-links">Useful Links</h2>
+      <ul class="link-list">
+        <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.ritsumei.ac.jp/" target="_blank" rel="noopener noreferrer">Ritsumeikan University</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <section class="quiz">
+        <h2>Web Development Trivia</h2>
+        <p>Choose one answer for each question, then submit your answers to see your score.</p>
+
+        <form id="quizForm">
+          <fieldset>
+            <legend>1. What does HTML stand for?</legend>
+            <label><input type="radio" name="q1" value="correct"> HyperText Markup Language</label>
+            <label><input type="radio" name="q1" value="wrong"> High Transfer Machine Language</label>
+            <label><input type="radio" name="q1" value="wrong"> Home Tool Markup Language</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. Which language is mainly used to style a web page?</legend>
+            <label><input type="radio" name="q2" value="wrong"> SQL</label>
+            <label><input type="radio" name="q2" value="correct"> CSS</label>
+            <label><input type="radio" name="q2" value="wrong"> Python</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. Which JavaScript method can update visible text on a page?</legend>
+            <label><input type="radio" name="q3" value="correct"> textContent</label>
+            <label><input type="radio" name="q3" value="wrong"> tableBorder</label>
+            <label><input type="radio" name="q3" value="wrong"> pageColor</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>4. What does responsive design help with?</legend>
+            <label><input type="radio" name="q4" value="wrong"> It deletes unused files automatically.</label>
+            <label><input type="radio" name="q4" value="wrong"> It makes every page use the same password.</label>
+            <label><input type="radio" name="q4" value="correct"> It adapts the layout to different screen sizes.</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>5. What service is used in this exercise to host the website?</legend>
+            <label><input type="radio" name="q5" value="wrong"> Google Maps</label>
+            <label><input type="radio" name="q5" value="correct"> GitHub Pages</label>
+            <label><input type="radio" name="q5" value="wrong"> Email only</label>
+          </fieldset>
+
+          <div class="quiz-actions">
+            <button type="submit">Submit Answers</button>
+            <button type="reset" class="secondary-button">Reset</button>
+          </div>
+        </form>
+
+        <p id="quizResult" class="quiz-result" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <aside class="right-sidebar" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>Created in July 2026</p>
+    <p><a href="https://github.com/katenn0613/XIAZHANweek14.github.io" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

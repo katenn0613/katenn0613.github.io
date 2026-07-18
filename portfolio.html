@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xia Zhan's Learning Website | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Information Systems Engineering - Week 14</p>
+    <h1>Xia Zhan's Learning Website</h1>
+  </header>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html" class="active">Portfolio</a>
+    <a href="trivia.html">Trivia</a>
+  </nav>
+
+  <div class="page-layout">
+    <aside class="left-sidebar" aria-labelledby="useful-links">
+      <h2 id="useful-links">Useful Links</h2>
+      <ul class="link-list">
+        <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.ritsumei.ac.jp/" target="_blank" rel="noopener noreferrer">Ritsumeikan University</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h2>My Portfolio</h2>
+      <p>
+        This table summarizes learning experiences and small digital creations
+        related to information systems and programming.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Technology</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Personal Website</td>
+              <td>A three-page website with a shared layout and responsive design.</td>
+              <td>HTML, CSS, JavaScript</td>
+              <td>Jul 2026</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Trivia Quiz</td>
+              <td>An interactive quiz that checks user input and calculates a score.</td>
+              <td>JavaScript</td>
+              <td>Jul 2026</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Data Practice</td>
+              <td>Analyzed simple data and practiced presenting results clearly.</td>
+              <td>Spreadsheet, Python</td>
+              <td>May 2026</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Presentation Design</td>
+              <td>Created slides to explain a technology topic in a structured way.</td>
+              <td>PowerPoint</td>
+              <td>Apr 2026</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Web Layout Exercise</td>
+              <td>Practiced navigation bars, sidebars, tables, and forms.</td>
+              <td>HTML, CSS</td>
+              <td>Mar 2026</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <aside class="right-sidebar" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>Created in July 2026</p>
+    <p><a href="https://github.com/katenn0613/XIAZHANweek14.github.io" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+  </footer>
+</body>
+</html>
